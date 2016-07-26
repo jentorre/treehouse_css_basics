@@ -3,13 +3,16 @@
 ==================================== */
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
 	line-height: 1.6;
 	color: #3a3a3a;
+}
 
+p:last-child {
+	margin-bottom: 0;
 }
 
 a { 
@@ -22,33 +25,31 @@ a {
 ==================================== */
 
 /* ---- Navigation ---- */
-.name {
-	margin: 0;
-}
 
+.name {
+  margin: 0;
+}
 
 /* ---- Layout Containers ---- */
 
 .container {
-	padding-left: 1em;
-	padding-right: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .main-header {
+	padding: 1.5em 0;
 	background: #3acec2;
-	padding: 1em 0;
 }
 
-.main-footer {
+.main-footer { 
 	text-align: center;
 	padding: 2em 0;
 	background: #d9e4ea;
 }
 
-
-
 /* ================================= 
-Media Queries
+  Media Queries
 ==================================== */
 
 @media (min-width: 769px) {
@@ -56,5 +57,5 @@ Media Queries
 		width: 70%;
 		max-width: 1000px;
 		margin: 0 auto;
-
+	}
 }
