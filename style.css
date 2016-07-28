@@ -74,7 +74,6 @@ a {
 }
 
 .main-header {
-	text-align: center;
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
 	background: #3acec2;
@@ -104,13 +103,22 @@ a {
 	}
 
 	.name,
+	.main-nav,
 	.main-nav li {
 		display: inline-block;
 	}
 
 	.name {
 		width: 240px;
-		
-			}
+		margin-right: 50px;
+	}
+
+	.main-nav li {
+		margin-right: 12px;
+	}
 
 }
+
+
+
+
