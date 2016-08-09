@@ -118,7 +118,19 @@ a {
 
 	/* ---- Columns ---- */
 
+	.col {
+		float: right;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.primary {
+		width: 60%;
+	}
 	
+	.secondary {
+		width: 40%;
+	}
 	
 	/* ------------- */
 
