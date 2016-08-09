@@ -79,6 +79,7 @@ a {
 	padding-bottom: 1.5em;
 	background: #3acec2;
 	margin-bottom: 30px;
+
 }
 
 .main-footer {
@@ -129,5 +130,9 @@ a {
 }
 
 
-
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 
